@@ -21,9 +21,8 @@ until [ "$ans" = 3 ]
 
 
         case $ans in
-                1) bash "./Scripts/AdvacnedFolderFiles";;
-                2) bash "./Scripts/delete";;
+                1) bash "./Scripts/FinalFolder";;
+                2) bash "./Scripts/FinalDelete";;
                 3) echo "Thank you for using this script";;
         esac
 done
-~           
