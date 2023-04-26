@@ -1,6 +1,7 @@
 #!/bin/bash
 # Created by Pacen Slaton
 # this is to create a Menu
+#scripts called MainMenu"
 
 #This script will execute a menu
 clear
