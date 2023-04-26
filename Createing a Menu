@@ -1,0 +1,29 @@
+#!/bin/bash
+# Created by Pacen Slaton
+# this is to create a Menu
+
+#This script will execute a menu
+clear
+echo "Hello, This script will Help you create and Delete Files."
+echo "#########################################################"
+echo "####################### :- ) ############################"
+echo "#########################################################"
+until [ "$ans" = 3 ]
+        do
+        echo "Please select the following one of the following options:"
+        echo "enter 1 - Create Files"
+        echo "enter 2 - Delete Files"
+        echo "enter 3 - Exit the Script"
+        read -p "Please make a select " ans
+
+        echo "you selected $ans"
+
+
+
+        case $ans in
+                1) bash "./Scripts/AdvacnedFolderFiles";;
+                2) bash "./Scripts/delete";;
+                3) echo "Thank you for using this script";;
+        esac
+done
+~           
