@@ -2,6 +2,10 @@
 
 echo Hello, how many Folders would you want?
 
+mkdir All_Folders
+
+cd All_Folders
+
 read p
 
 echo "create folder"
@@ -26,3 +30,5 @@ do
 
         echo "DONE CREATING FILE"
 done
+
+cd
