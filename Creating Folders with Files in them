@@ -1,4 +1,6 @@
 #! /bin/bash
+#Created by Pacen Slaton
+#Create Folders and Files
 
 echo Hello, how many Folders would you want?
 
