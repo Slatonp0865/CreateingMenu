@@ -1,0 +1,11 @@
+#! /bin/bash
+#Created by Pacen Slaton
+#Delete Files with a script
+
+ls All_Folders* > ListOfFolders
+
+cat ListOfFolders
+
+for i in $(cat ListOfFolders) ; do echo $i; rm -r All_Folders/$i ; done
+
+ rm -r ListOfFolders
