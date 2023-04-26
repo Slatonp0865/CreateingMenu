@@ -1,6 +1,7 @@
 #! /bin/bash
 #Created by Pacen Slaton
 #Create Folders and Files
+#scripts called "FinalFolder"
 
 echo Hello, how many Folders would you want?
 
